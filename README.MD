@@ -10,9 +10,9 @@
 
 2) Ajouter un appel à une future fonction displayArticleCount qui affichera les articles validés
 
-- ainsi qu'un  "listener" pour le formulaire sur l'évènement "submit" appelant une  future fonction submitForm
+- ainsi qu'un "listener" pour le formulaire sur l'évènement "submit" appelant une future fonction submitForm
 
-3) Créer un fichier form-article.js qui sera appellée dans l'index et comprendra la fonction suivante :
+3) Créer un fichier form-article.js qui sera appelé dans l'index et contiendra la fonction suivante :
 
 - La fonction checkForm prenant en paramètre un évènement JavaScript qui devra :
   - récupérer les valeurs des champs du formulaire
@@ -22,13 +22,13 @@
 
 4) Ajouter au fichier form-article.js la fonction suivante :
 
-- La fonction submitFormprenant en argument l'évènement venant de l'index qui devra :
+- La fonction submitForm prenant en argument l'évènement venant de l'index qui devra :
   - empêcher le rechargement de la page
-  - appeller la fonction précédente
+  - appeler la fonction précédente
   - si TRUE, récupérer les valeurs des champs et créer un élément "article" avec le contenu
   - ajouter l'élément pour l'afficher dans la section adéquate
 
-5) Mettre en place un fichier constant.js. Il contiendra une constante ERROR_COLOR devant être appellée pour mettre en valeur les champs contenant des erreurs
+5) Mettre en place un fichier constant.js. Il contiendra à minima une constante ERROR_COLOR devant être appellée pour mettre en valeur les champs contenant des erreurs
 
 ## Ressources
 
