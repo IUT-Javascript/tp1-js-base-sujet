@@ -33,7 +33,7 @@
 ## Ressources
 
 - Lien des slides :
-  - https://drive.google.com/drive/folders/1tFK4F2RrTWAvqqEG-RpGvnTMCGohaNcz?usp=share_link
+  - https://drive.google.com/drive/folders/1R6BkNNUlPlrSbfJyHJN7YgFyg-7p-65R?usp=drive_link
 
 - Lien vers la documentation :
   - https://developer.mozilla.org/fr/docs/Web/JavaScript
