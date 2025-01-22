@@ -8,13 +8,11 @@
 - 2 champs sont nécessaires : le titre et la description
 - 1 section pour afficher les articles ajoutés (vide au chargement)
 
-2) Ajouter un appel à une future fonction displayArticleCount qui affichera les articles validés
-
-- ainsi qu'un "listener" pour le formulaire sur l'évènement "submit" appelant une future fonction submitForm
+2) Ajouter un "listener" pour le formulaire sur l'évènement "submit" appelant une future fonction submitForm
 
 3) Créer un fichier form-article.js qui sera appelé dans l'index et contiendra la fonction suivante :
 
-- La fonction checkForm prenant en paramètre un évènement JavaScript qui devra :
+- La fonction checkForm prenant en paramètre un form JavaScript qui devra :
   - récupérer les valeurs des champs du formulaire
   - les valider (à vous de réfléchir à ce que vous devez vérifier)
   - modifier le style de la page pour mettre en valeur les champs contenant des erreurs
@@ -24,11 +22,15 @@
 
 - La fonction submitForm prenant en argument l'évènement venant de l'index qui devra :
   - empêcher le rechargement de la page
-  - appeler la fonction précédente
+  - appeler la fonction précédente (checkForm) en lui passant le form issu de l'event
   - si TRUE, récupérer les valeurs des champs et créer un élément "article" avec le contenu
   - ajouter l'élément pour l'afficher dans la section adéquate
 
 5) Mettre en place un fichier constant.js. Il contiendra à minima une constante ERROR_COLOR devant être appellée pour mettre en valeur les champs contenant des erreurs
+
+6) Ajouter la méthode displayArticleCount qui affichera dans la balise h3 le nombre d'articles sur la page
+
+- Le nombre d'article devra se rafraichir à chaque ajout
 
 ## Ressources
 
